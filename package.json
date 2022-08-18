@@ -1,0 +1,25 @@
+{
+  "name": "base-static-project",
+  "version": "1.0.0",
+  "description": "Base Project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build:parcel": "parcel build --public-url ./",
+    "clean": "rm -rf dist/*",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.3.2",
+    "@parcel/packager-xml": "^2.2.0",
+    "@parcel/transformer-sass": "^2.0.0",
+    "@parcel/transformer-webmanifest": "^2.0.0",
+    "@parcel/transformer-xml": "^2.0.0",
+    "parcel": "^2.0.0",
+    "posthtml-expressions": "^1.9.0",
+    "posthtml-include": "^1.7.2"
+  },
+  "dependencies": {}
+}
