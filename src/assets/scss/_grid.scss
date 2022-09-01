@@ -553,7 +553,7 @@
 .col-m-23,
 .col-m-24 {
   @media all and (max-width: $breakS) {
-    --span: 16;
+    --span: 12;
   }
 }
 
@@ -582,7 +582,7 @@
 .offset-23 {
   @media all and (max-width: $breakS) {
     --offset: 0;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 }
 
